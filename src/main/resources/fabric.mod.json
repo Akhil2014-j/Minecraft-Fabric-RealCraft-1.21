@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "realcraft",
+	"version": "${version}",
+	"name": "RealCraft",
+	"description": "This mod adds a lot of things that are in real life!",
+	"authors": [
+		"Akhil Doguparthi"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/realcraft/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.akhil.realcraft.RealCraft"
+		],
+		"client": [
+			"net.akhil.realcraft.RealCraftClient"
+		],
+		"fabric-datagen": [
+			"net.akhil.realcraft.RealCraftDataGenerator"
+		]
+	},
+	"mixins": [
+		"realcraft.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.11",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
