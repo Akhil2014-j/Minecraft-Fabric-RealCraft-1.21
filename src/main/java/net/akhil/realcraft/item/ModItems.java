@@ -27,6 +27,6 @@ public class ModItems{
         RealCraft.LOGGER.info("Registering Mod Items for " + RealCraft.MOD_ID);
         //Fix under
 
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(ModItems::addItemsToIngredientTabItemGroup)
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(ModItems::addItemsToIngredientTabItemGroup);
     }
 }
