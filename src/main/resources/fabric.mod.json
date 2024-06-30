@@ -1,7 +1,7 @@
 {
 	"schemaVersion": 1,
 	"id": "realcraft",
-	"version": "${version}",
+	"version": "1.0.1",
 	"name": "RealCraft",
 	"description": "This mod adds a lot of things that are in real life!",
 	"authors": [
@@ -9,7 +9,7 @@
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"sources": "https://github.com/Akhil2014-j/Fabric-RealCraft-1.21."
 	},
 	"license": "CC0-1.0",
 	"icon": "assets/realcraft/icon.png",

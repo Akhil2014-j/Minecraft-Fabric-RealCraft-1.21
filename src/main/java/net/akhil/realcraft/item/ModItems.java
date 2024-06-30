@@ -14,18 +14,17 @@ import net.minecraft.util.Identifier;
 
 public class ModItems{
     public static final Item RUBY = new Item(new Item.Settings());
+    public static final Item SAPPHIRE = new Item(new Item.Settings());
 
-    private static void addItemsToIngredientTabItemGroup(FabricItemGroupEntries entries) {
-        entries.add(RUBY);
+
+    public static Item registerItem() {
+        Registry.register(Registries.ITEM, Identifier.of("realcraft", "ruby"), RUBY);
+        return Registry.register(Registries.ITEM, Identifier.of("realcraft", "sapphire"), SAPPHIRE);
     }
 
-    private static Item registerItem(String name, Item item) {
-        return Registry.register(Registries.ITEM, Identifier.of("realcraft", "custom_item"), RUBY);
-    }
 
     public static void registerModItems() {
         RealCraft.LOGGER.info("Registering Mod Items for " + RealCraft.MOD_ID);
-        //Fix under
 
     }
 }

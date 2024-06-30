@@ -13,6 +13,8 @@ public class RealCraft implements ModInitializer {
 	@Override
 	public void onInitialize() {
 
+
 		ModItems.registerModItems();
+		ModItems.registerItem();
 	}
 }
