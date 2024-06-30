@@ -13,20 +13,19 @@ import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 
 public class ModItems{
-    public static final Item RUBY = registerItem("ruby", new Item(new Item.Settings()));
+    public static final Item RUBY = new Item(new Item.Settings());
 
     private static void addItemsToIngredientTabItemGroup(FabricItemGroupEntries entries) {
         entries.add(RUBY);
     }
 
     private static Item registerItem(String name, Item item) {
-        return Registry.register(Registries.ITEM, Identifier.tryParse(RealCraft.MOD_ID, name), item);
+        return Registry.register(Registries.ITEM, Identifier.of("realcraft", "custom_item"), RUBY);
     }
 
     public static void registerModItems() {
         RealCraft.LOGGER.info("Registering Mod Items for " + RealCraft.MOD_ID);
         //Fix under
 
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(ModItems::addItemsToIngredientTabItemGroup);
     }
 }
