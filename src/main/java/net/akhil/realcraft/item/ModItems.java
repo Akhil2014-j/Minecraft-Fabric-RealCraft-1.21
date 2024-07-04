@@ -21,6 +21,6 @@ public class ModItems{
 
 
     public static void initialize() {
-
+    // Items in Item Groups
     }
 }
