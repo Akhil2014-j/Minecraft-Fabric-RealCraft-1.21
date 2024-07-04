@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "realcraft:item/ruby"
+      "layer0": "realcraft:item/ruby"
   }
 }
