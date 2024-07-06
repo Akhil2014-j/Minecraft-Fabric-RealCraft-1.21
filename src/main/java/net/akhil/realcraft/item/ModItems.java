@@ -3,7 +3,6 @@ package net.akhil.realcraft.item;
 
 import net.akhil.realcraft.RealCraft;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
-import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents.ModifyEntries;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroups;
 import net.minecraft.registry.Registries;
