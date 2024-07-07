@@ -1,5 +1,6 @@
 package net.akhil.realcraft;
 
+import net.akhil.realcraft.block.ModBlocks;
 import net.akhil.realcraft.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
@@ -13,5 +14,6 @@ public class RealCraft implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		ModItems.initialize();
+		ModBlocks.initialize();
 	}
 }

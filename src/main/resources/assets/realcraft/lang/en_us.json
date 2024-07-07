@@ -1,4 +1,7 @@
 {
   "item.realcraft.ruby": "Ruby",
-  "item.realcraft.sapphire": "Sapphire"
+  "item.realcraft.sapphire": "Sapphire",
+
+  "block.realcraft.ruby_block": "Block of Ruby",
+  "block.realcraft.sapphire_block": "Block of Sapphire"
 }

@@ -24,8 +24,10 @@ public class ModItems{
 
 
     public static void initialize() {
-    // Items in Item Groups
+        // Items in Item Groups
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register((itemGroup) -> itemGroup.add(ModItems.RUBY));
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register((itemGroup) -> itemGroup.add(ModItems.SAPPHIRE));
     }
 }
+
+// Item Groups
