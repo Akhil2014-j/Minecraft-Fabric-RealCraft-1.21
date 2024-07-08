@@ -22,8 +22,8 @@ public class ModBlocks {
         return Registry.register(Registries.BLOCK, id, block);
     }
 
-    public static final Block RUBY_BLOCK = register(new Block(AbstractBlock.Settings.create().sounds(BlockSoundGroup.STONE)), "ruby_block", true);
-    public static final Block SAPPHIRE_BLOCK = register(new Block(AbstractBlock.Settings.create().sounds(BlockSoundGroup.STONE)), "sapphire_block", true);
+    public static final Block RUBY_BLOCK = register(new Block(AbstractBlock.Settings.create().sounds(BlockSoundGroup.STONE).strength(5.0f, 6.0f)), "ruby_block", true);
+    public static final Block SAPPHIRE_BLOCK = register(new Block(AbstractBlock.Settings.create().sounds(BlockSoundGroup.STONE).strength(5.0f, 6.0f)), "sapphire_block", true);
 
     public static void initialize() {}
 }

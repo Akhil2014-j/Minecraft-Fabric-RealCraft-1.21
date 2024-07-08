@@ -29,5 +29,3 @@ public class ModItems{
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register((itemGroup) -> itemGroup.add(ModItems.SAPPHIRE));
     }
 }
-
-// Item Groups
