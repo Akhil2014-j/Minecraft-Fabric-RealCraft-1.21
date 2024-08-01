@@ -3,5 +3,10 @@
   "item.realcraft.sapphire": "Sapphire",
 
   "block.realcraft.ruby_block": "Block of Ruby",
-  "block.realcraft.sapphire_block": "Block of Sapphire"
+  "block.realcraft.sapphire_block": "Block of Sapphire",
+  "block.realcraft.ruby_ore": "Ruby Ore",
+  "block.realcraft.sapphire_ore": "Sapphire Ore",
+  "block.realcraft.burnt_out_torch": "Unlit Torch",
+
+  "itemGroup.realcraft": "RealCraft"
 }
